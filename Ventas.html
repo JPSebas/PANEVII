@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas</title>
+    <link rel="stylesheet" href="css/ventas.css">
+    <link rel="shortcut icon" href="img/carrito-de-compras.png" type="image/x-icon">
+    <img src="./img/panevi.jpg" width="200" height="80" alt="panevi" usemap="#planoMap">
+    <map name="planoMap">
+        <!-- Área 1 -->
+        <area shape="rect" coords="58,58,55,55" alt="Área 1" href="../index.html">
+        
+        <!-- Área 2 -->
+        <area shape="circle" coords="150,70,50" alt="Área 2" href="./index.html">
+        
+        <!-- Área 3 -->
+        <area shape="polygon" coords="250,10,320,50,200,100" alt="Área 3" href="../Login.html">
+      </map>
+    <div class="search-container">
+        <input id="input" type="text" placeholder="Buscar...">
+      <button type="submit">Buscar</button>
+    </div>
+    <p><b>¡Has tu Compra!</b></p>
+    <a href=""><img src="img/compra.png" width="45" alt="compra" id="image"></a>
+</head>
+<br>
+<hr>
+<body>
+    <ul>
+        <h2><i>Información del Cliente</i></h2>
+    </ul>
+    <form name="ventas" id="form1" action="">
+    <input type="email" id="input0" name="email" placeholder="E-mail" required>
+    <table id="tabla1">
+       <br>
+       <br>
+       <tr><td><input type='password' name="password" id="input1" placeholder="Contraseña" required><br><br></td>
+        <td><input type='password' name="password" id="input1" placeholder="Confirmar Contr*" required><br><br></td>
+        <tr><td><input type='text' name="nombre" id="input1" placeholder="Nombre" required></td>
+        <td><input type='text' name="apellido" id="input1" placeholder="Apellido" required> </td>
+        </tr>
+    </table>
+    <br>
+    <input type="text" id="input0" name="telefono" placeholder="Teléfono" required>
+    <br>
+    <br>
+    <input type="text" id="input0" name="ciudad" placeholder="Ciudad" required>
+    <br>
+    <br>
+    <input type="text" id="input0" name="direccion" placeholder="Dirección" required>
+    <br>
+    <br>
+    <input type="checkbox">
+    <label for="checkbox"><b><i>Entregar en la misma dirección</i></b></label>
+</form>
+
+<ul>
+    <h2 id="pagotitulo"><i>Método de pago</i></h2>
+</ul>
+<form name="ventas" id="form2" action="">
+<label for="tarjeta"><b><i>Tarjeta de Crédito y Débito</i></b></label>
+<br>
+<br>
+<input type="text" id="input0" name="numerptar" placeholder="Número de Tarjeta" required>
+<table id="tabla1">
+   <br>
+   <br>
+   <tr><td><input type='password' name="password" id="input1" placeholder="Contraseña" required><br><br></td>
+    <td><input type='password' name="password" id="input1" placeholder="Confirmar Contr*" required><br><br></td>
+</table>
+<input type="text" id="input0" name="telefono" placeholder="Teléfono" required>
+<br>
+<br>
+<table id="tabla1">
+    <tr><td><input type='text' name="CVV" id="input1" placeholder="CVV" required></td>
+    <td><input type='text' name="pagos" id="input1" placeholder="Pagos" required> </td>
+    </tr>
+</table>
+<br>
+<hr>
+<br>
+<hr>
+<br>
+<hr>
+</form>
+
+<ul>
+        <h2 id="ordentitulo"><i>Resúmen de la orden</i></h2>
+    </ul>
+    <form name="ventas" id="form3" action="">
+    <table id="tabla3" border="0">
+       <tr>
+        <td><b><i>Producto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></b></td>
+        <td><b><i>Cantidad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></b></td>
+        <td><b><i>Precio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></b></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table id="tabla4" border="1">
+    <tr>
+        <td><b><i>&nbsp;SubTotal&nbsp;</i></b></td>
+        <td style="width: 100%;"></td>
+    </tr>
+    <tr>
+        <td style="color: #134914;"><b><i>&nbsp;Envío&nbsp;</i></b></td>
+        <td style="width: 100%;"></td>
+    </tr>
+    <tr>
+        <td><b><i>&nbsp;Total&nbsp;</i></b></td>
+        <td style="width: 100%;"></td>
+    </tr>
+</table>
+<br>
+<hr>
+<br>
+<hr>
+    <input type="checkbox">
+    <label for="checkbox"><b><i>Aceptar términos y condiciones</i></b></label>
+    <br>
+    <br>
+    <center>
+        <button id="boton" type="submit">Finalizar Compra</button>
+    </center>
+</form>
+</body>
+</html>
