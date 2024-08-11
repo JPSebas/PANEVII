@@ -1,25 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="css/style (1).css"> 
+    <link rel="stylesheet" href="css/styless.css">
+    <link rel="shortcut icon" href="img/acceso.png" type="image/x-icon">
+    <title>Registro</title>
+    <script type="text/javascript" src="js/funciones_validacion_formularios_basico.js"></script>
 </head>
-<body id="fondo" style="background-image: url('img/imagen22.png')">
+
+<body id="fondo" style="background-image: url('images/imagen22.png')">
     <br>
-    <form id="form2" action="Login.html" method="post"> 
+    <form id="form2" name="miniformulario" class="formulario" method="post" onsubmit="return validarDatos()" action="Login.html">
         <h2>FORMULARIO DE REGISTRO</h2>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo">
 
-        <input type="email" id="username" name="username" placeholder="E-mail" class="pass">
+        <div id="success-message" class="success-message">Registro exitoso</div>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <span id="error-nombre" class="error"></span>
 
-        <input type="text" id="numero" name="numero" placeholder="Teléfono">
+        <input type="text" id="apellido" name="apellido" placeholder="Apellidos" />
+        <span id="error-apellido" class="error"></span>
 
-        <input type="password" id="password" name="password" placeholder="Contraseña">
+        <input type="email" id="email" name="email" placeholder="E-mail" />
+        <span id="error-email" class="error"></span>
 
-        <input type="password" id="password" name="password" placeholder="Confirmar Contraseña">
-        <button type="submit">Registrarse</button>
+        <input type="password" id="password" name="password" placeholder="Contraseña" />
+        <span id="error-password" class="error"></span>
+
+        <input type="text" id="telefono" name="telefono" placeholder="Teléfono" />
+        <span id="error-telefono" class="error"></span>
+
+        <input type="text" id="direccion" name="direccion" placeholder="Dirección" />
+        <span id="error-direccion" class="error"></span>
+
+        <button type="submit" id="botones">Registrarse</button>
     </form>
 </body>
+
 </html>

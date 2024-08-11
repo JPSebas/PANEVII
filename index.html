@@ -1,94 +1,130 @@
-<!DOCTYPE html> <!-- Declara el tipo de documento como HTML5 -->
-<html lang="en"> <!-- Abre la etiqueta HTML con el atributo lang="en" que indica que el idioma del documento es inglés -->
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
 
-<head> <!-- Abre la etiqueta HEAD que contiene información sobre el documento -->
-	<meta charset="UTF-8" /> <!-- Establece la codificación de caracteres del documento a UTF-8 -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Asegura la compatibilidad con versiones recientes de Internet Explorer -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Establece el viewport del documento para adaptarse a diferentes dispositivos -->
-	<link rel="stylesheet" href="css/styles.css"/> <!-- Enlaza una hoja de estilos CSS externa -->
-	<link rel="shortcut icon" href="img/cana-de-azucar (1).png" type="image/x-icon">
-	<title>PANEVI</title> <!-- Establece el título del documento que se muestra en la pestaña del navegador -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="images/logo_nav.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="css/tiny-slider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>PANEVI</title>
 </head>
-<header>
-	<hr> <!-- Abre la etiqueta HEADER que contiene el encabezado de la página -->
-	<div class="container-logo"> <!-- Contenedor para el logo y el nombre de la empresa -->
-		<img src="img/panevi.jpg" id="logo"> <!-- Muestra la imagen del logo -->
-		<div class="header-images"> <!-- Contenedor para las imágenes de las letras de la empresa -->
-			<img src="img/P.PNG" alt="Imagen 1">
-			<img src="img/A.png" alt="Imagen 1">
-			<img src="img/N.png" alt="Imagen 1">
-			<img src="img/E.png" alt="Imagen 1">
-			<img src="img/V.png" alt="Imagen 1">
-			<img src="img/I.png" alt="Imagen 1">
+
+<body>
+
+	<!-- Start Header/Navigation -->
+	<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+		<div class="container-logo"> <!-- Contenedor para el logo y el nombre de la empresa -->
+
+			<div class="header-images"> <!-- Contenedor para las imágenes de las letras de la empresa -->
+				<img src="images/logo.jpeg " id="logo"> <!-- Muestra la imagen del logo -->
+				<img src="images/P.PNG" alt="Imagen 1">
+				<img src="images/A.png" alt="Imagen 1">
+				<img src="images/N.png" alt="Imagen 1">
+				<img src="images/E.png" alt="Imagen 1">
+				<img src="images/V.png" alt="Imagen 1">
+				<img src="images/I.png" alt="Imagen 1">
+			</div>
 		</div>
-	</div>
-	<br>
 
 
-	<div class="container-navbar"> <!-- Contenedor para la barra de navegación -->
-		<nav class="navbar container"> <!-- Etiqueta NAV que contiene la barra de navegación -->
-			<i class="fa-solid fa-bars"></i> <!-- Icono de menú hamburguesa -->
-			<ul class="menu"> <!-- Lista de enlaces de navegación -->
-				<li><a href="Login.html">Iniciar Sesion</a></li>
-				<li><a href="Registro.html">Registrarse</a></li>
-				<li><a href="Productos.html">Productos</a></li>
-				<li><a href="Ventas.html">Ventas</a></li>
-			</ul>
+		<div class="container">
 
-			<form class="search-form"> <!-- Formulario de búsqueda -->
-				<input type="search" placeholder="Buscar..." /> <!-- Campo de entrada de texto para la búsqueda -->
-				<button class="btn-search"> <!-- Botón de búsqueda -->
-					<i class="fa-solid fa-magnifying-glass"></i>
-				</button>
-			</form>
-		</nav>
-	</div>
-</header>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+				aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-<body> <!-- Abre la etiqueta BODY que contiene el contenido principal de la página -->
+			<div class="collapse navbar-collapse" id="navbarsFurni">
+				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+
+
+
+					<div class="busqueda">
+						<input type="text" id="bus" placeholder="Buscar">
+						<div class="buttonb">
+							<i class="fa fa-search"></i>
+						</div>
+					</div>
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Inicio</a>
+					</li>
+					<li><a class="nav-link" href="Login.html">Iniciar </a></li>
+					<li><a class="nav-link" href="Registro.html">Registrase</a></li>
+					<li><a class="nav-link" href="Productos.html">Productos</a></li>
+
+
+				</ul>
+
+
+			</div>
+		</div>
+
+	</nav>
+
+	<!-- End Header/Navigation -->
+
+	<!-- Start Hero Section -->
 
 	<section id="containe"> <!-- Sección que contiene un carrusel de imágenes -->
 		<div class="containerr">
 			<div class="slide"> <!-- Contenedor del carrusel -->
 
-				<div class="item" style="background-image: url('img/imagen66.jpg');">
+				<div class="item" style="background-image: url('images/imagen66.jpg');">
 					<!-- Cada elemento del carrusel -->
 					<div class="content">
 						<div class="name">Información de contacto</div>
+						<br>
 						<div class="des">Enlaces a redes sociales</div>
+						<br>
 						<button>Ver más</button>
 					</div>
 					<!-- Más elementos del carrusel -->
 				</div>
-				<div class="item" style="background-image: url('img/imagen1.jpg')">
+				<div class="item" style="background-image: url('images/imagen1.jpg')">
 					<div class="content">
 						<div class="name">Introducción al producto principal</div>
 						<div class="des">Descripción breve de la panela</div>
-						<button>Ver más</button>
+						<a href="Proceso.html"><button>Ver más</button></a>
 					</div>
 				</div>
-				<div class="item" style="background-image: url('img/imagen22.png');">
+				<div class="item" style="background-image: url('images/imagen22.png');">
 					<div class="content">
 						<div class="name">Proceso de producción sostenible</div>
 						<div class="des">Impacto positivo en las comunidades locales</div>
 						<button>Ver más</button>
 					</div>
 				</div>
-				<div class="item" style="background-image: url('img/imagen33.jpg');">
+				<div class="item" style="background-image: url('images/imagen33.jpg');">
 					<div class="content">
 						<div class="name">Variedades de panela y derivados</div>
 						<div class="des">Diferentes tipos y presentaciones de panela</div>
-						<button>Ver más</button>
+						<a href="Productos.html"><button>Ver más</button></a>
 					</div>
 				</div>
-				<div class="item" style="background-image: url('img/imagen44.jpg');">
+				<div class="item" style="background-image: url('images/imagen44.jpg');">
 					<div class="content">
 						<div class="name">Cultura y tradición</div>
 						<div class="des">Fiestas o celebraciones donde la panela es protagonista</div>
 						<button>Ver más</button>
 					</div>
 				</div>
-				<div class="item" style="background-image: url('img/imagen55.jpeg')">
+				<div class="item" style="background-image: url('images/imagen55.jpeg')">
 					<div class="content">
 						<div class="name">Información de contacto</div>
 						<div class="des">Enlaces a redes sociales</div>
@@ -107,225 +143,341 @@
 
 
 
+	<!-- End Hero Section -->
 
-	<section class="banner"> <!-- Sección que contiene un banner -->
-		<div class="content-banner">
+	<!-- Start Product Section -->
+	<div class="product-section">
+		<div class="container">
+			<div class="row">
 
+				<!-- Start Column 1 -->
+				<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+					<h2 class="mb-4 section-title">Crafted with excellent material.</h2>
+					<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+						vulputate velit imperdiet dolor tempor tristique. </p>
+					<p><a href="shop.html" class="btn">Explore</a></p>
+				</div>
+
+			</div>
 		</div>
-	</section>
+	</div>
+	<!-- End Product Section -->
 
-	<main class="main-content"> <!-- Abre la etiqueta MAIN que contiene el contenido principal -->
-		<section class="container container-features"> <!-- Sección que contiene características destacadas -->
-			<div class="card-feature"> <!-- Cada característica destacada -->
-				<i class="fa-solid fa-wallet"></i>
-				<div class="feature-content">
-					<span>Contrareembolso</span>
-					<p>100% garantía de devolución de dinero</p>
-				</div>
-			</div>
-			<div class="card-feature">
-				<i class="fa-solid fa-gift"></i>
-				<div class="feature-content">
-					<span>Tarjeta regalo especial</span>
-					<p>Ofrece bonos especiales con regalo</p>
-				</div>
-			</div>
-			<div class="card-feature">
-				<i class="fa-solid fa-headset"></i>
-				<div class="feature-content">
-					<span>Servicio al cliente 24/7</span>
-					<p>LLámenos 24/7 al 310-230-7944</p>
-				</div>
-				<!-- Más características destacadas -->
-			</div>
-		</section>
-		<br>
-		<section class="container top-categories">
-			<h1 class="heading-1">Panevi invita a consumir mas panela</h1>
-			<br>
-			<div class="container-categories">
-				<div class="card-category category-salud " style="background-image: url(img/imagen4.jpg)">
 
-					<p>Propiedades</p>
-					<span>Ver más</span>
-				</div>
-				<!-- Más categorías -->
-				<div class="card-category category-expreso" style="background-image: url(img/bene.jpg);">
 
-					<p>Beneficios</p>
-					<span>Ver más</span>
+
+
+	<!-- Quienes somos  Section -->
+	<div class="why-choose-section">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-6">
+					<h2 class="section-title">QUIENES SOMOS</h2>
+					<br>
+					<p>En Panevi, somos apasionados por la panela de alta calidad. Fundada con el objetivo de rescatar y
+						promover la tradición de la producción de panela en nuestra región, nos dedicamos a ofrecer un
+						producto natural, saludable y lleno de sabor. </p>
+
+					<div class="row my-5">
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+
+								</div>
+								<h3>Fast &amp; Free Shipping</h3>
+								<p>Nuestra panela se elabora de manera artesanal, utilizando caña de azúcar seleccionada
+									y procesos sostenibles que preservan el medio ambiente.</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+
+								</div>
+								<h3>Easy to Shop</h3>
+								<p>Creemos firmemente en la importancia de apoyar a los agricultores locales</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+
+								</div>
+								<h3>24/7 Support</h3>
+								<p>En Panevi, no solo nos enfocamos en la calidad de nuestros productos, sino también en
+									educar a nuestros consumidores sobre los beneficios de la panela</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+
+								</div>
+								<h3>Hassle Free Returns</h3>
+								<p>Es un endulzante natural, rico en nutrientes y perfecto para una alimentación
+									equilibrada. </p>
+							</div>
+						</div>
+
+					</div>
 				</div>
-				<div class="card-category category-capuchino" style="background-image: url(img/valo.png);">
-					<p>Valor Nutricional</p>
-					<span>Ver más</span>
+
+				<div class="col-lg-5">
+					<div class="img-wrap">
+						<img src="images/quien_somos.jpeg" alt="Image" class="img-fluid">
+					</div>
 				</div>
+
 			</div>
-		</section>
-		<br>
-		<section class="container blogs"> <!-- Sección que contiene los últimos blogs -->
-			<h1 class="heading-1">Consulta nuestros Árticulos</h1>
-			<br>
-			<div class="container-blogs">
-				<div class="card-blog"> 
-					<div class="card-blog"> <!-- Cada tarjeta de blog -->
-					<div class="container-img">
-						<img src="img/histo1.jpg" alt="Imagen Blog 1" />
-						<div class="button-group-blog">
-							<span>
-								<i class="fa-solid fa-magnifying-glass"></i>
-							</span>
-							<span>
-								<i class="fa-solid fa-link"></i>
-							</span>
+		</div>
+	</div>
+	<!-- Quienes Somos Section -->
+
+
+	<!-- Start Blog Section -->
+	<div class="blog-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md-6">
+					<h2 class="section-title">Panevi invita a consumir mas panela</h2>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+					<div class="post-entry">
+						<a href="#" class="post-thumbnail"><img src="images/imagen4.jpg" alt="Image"
+								class="img-fluid"></a>
+						<div class="post-content-entry">
+							<h3><a href="#">First Time Home Owner Ideas</a></h3>
+							<div class="meta">
+								<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19,
+										2021</a></span>
+							</div>
 						</div>
 					</div>
-					<div class="content-blog">
-						<h3>Historia de la panela</h3>
-						<span>Siglo XVI</span>
-						<p>
-							La panela colombiana tiene una rica historia que se remonta a la época 
-							colonial, cuando los españoles introdujeron la caña de azúcar en América 
-							Latina. En Colombia, el cultivo de caña y la producción de panela se 
-							arraigaron rápidamente, convirtiéndose en una tradición campesina 
-							fundamental. La panela se produce a partir del jugo de caña de azúcar, 
-							que se cocina y se solidifica sin refinar, conservando así sus nutrientes naturales
-						</p>
-						<div class="btn-read-more">Leer más</div>
-					</div>
-					<!-- Más tarjetas de blog -->
 				</div>
-				<div class="card-blog">
-					<div class="container-img">
-						<img src="img/proce.jpg" alt="Imagen Blog 2" />
-						<div class="button-group-blog">
-							<span>
-								<i class="fa-solid fa-magnifying-glass"></i>
-							</span>
-							<span>
-								<i class="fa-solid fa-link"></i>
-							</span>
+
+				<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+					<div class="post-entry">
+						<a href="#" class="post-thumbnail"><img src="images/bene.jpg" alt="Image" class="img-fluid"></a>
+						<div class="post-content-entry">
+							<h3><a href="#">How To Keep Your Furniture Clean</a></h3>
+							<div class="meta">
+								<span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
+							</div>
 						</div>
 					</div>
-					<div class="content-blog">
-						<h3>Proceso de la panela</h3>
-						<span>Entre los años 1530 - 1550</span>
-						<p>
-							El proceso de producción de panela comienza con la cosecha 
-							de la caña de azúcar, que se corta manualmente. La caña se 
-							muele en un trapiche para extraer el jugo, el cual se filtra 
-							y se cocina en calderas hasta espesar. Luego, la mezcla se 
-							bate para evitar cristales grandes y se vierte en moldes para 
-							enfriarse y solidificarse. Finalmente, la panela se desmolda, 
-							se corta en bloques o se pulveriza y se empaqueta para su distribución.
-						</p>
-						<div class="btn-read-more">Leer más</div>
-					</div>
 				</div>
-				<div class="card-blog">
-					<div class="container-img">
-						<img src="img/vari.jpg" alt="Imagen Blog 3" />
-						<div class="button-group-blog">
-							<span>
-								<i class="fa-solid fa-magnifying-glass"></i>
-							</span>
-							<span>
-								<i class="fa-solid fa-link"></i>
-							</span>
+
+				<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+					<div class="post-entry">
+						<a href="#" class="post-thumbnail"><img src="images/valo.png" alt="Image" class="img-fluid"></a>
+						<div class="post-content-entry">
+							<h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+							<div class="meta">
+								<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12,
+										2021</a></span>
+							</div>
 						</div>
 					</div>
-					<div class="content-blog">
-						<h3>Variedades de panela y derivados</h3>
-						<span>Siglo XX</span>
-						<p>
-							La panela se presenta en varias formas: en bloque (tradicional), 
-							pulverizada (en polvo para fácil disolución), granulada 
-							(similar al azúcar moreno) y líquida (jugo concentrado). 
-							Cada variedad mantiene el sabor y los beneficios nutricionales 
-							de la panela, adaptándose a diferentes usos culinarios.
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Blog Section -->
+
+
+
+
+	<!-- Start We Help Section -->
+	<div class="we-help-section">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-7 mb-5 mb-lg-0">
+					<div class="imgs-grid">
+						<div class="grid grid-1"><img src="images/c1 (1).jpeg" alt="Untree.co"></div>
+						<div class="grid grid-2"><img src="images/c1 (2).jpeg" alt="Untree.co"></div>
+						<div class="grid grid-3"><img src="images/c1 (3).jpeg" alt="Untree.co"></div>
+					</div>
+				</div>
+				<div class="col-lg-5 ps-lg-5">
+					<h2 class="section-title mb-4">We Help You Make Modern Interior Design</h2>
+					<p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada.
+						Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque
+						habitant morbi tristique senectus et netus et malesuada</p>
+
+					<ul class="list-unstyled custom-list my-4">
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+						<li>Donec vitae odio quis nisl dapibus malesuada</li>
+					</ul>
+					<p><a herf="#" class="btn">Explore</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End We Help Section -->
+
+	<!-- Start Popular Product -->
+	<div class="popular-product">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="product-item-sm d-flex">
+						<div class="thumbnail">
+							<img src="images/proce.jpg" alt="Image" class="img-fluid">
+						</div>
+						<div class="pt-3">
+							<h3>Proceso de la panela</h3>
+							<p>El proceso de producción de panela comienza con la cosecha de la caña de azúcar, que se
+								corta manualmente. La caña se muele en un trapiche para extraer el jugo, el cual se
+								filtra y se cocina en calderas hasta espesar. Luego, la mezcla se bate para evitar
+								cristales grandes y se vierte en moldes para enfriarse y solidificarse. Finalmente, la
+								panela se desmolda, se corta en bloques o se pulveriza y se empaqueta para su
+								distribución</p>
+							<button class="btn-read-more">Leer más</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="product-item-sm d-flex">
+						<div class="thumbnail">
+							<img src="images/histo1.jpg" alt="Image" class="img-fluid">
+						</div>
+						<div class="pt-3">
+							<h3>Historia de la Panela</h3>
+							<p>La panela colombiana tiene una rica historia que se remonta a la época
+								colonial, cuando los españoles introdujeron la caña de azúcar en América
+								Latina. En Colombia, el cultivo de caña y la producción de panela se
+								arraigaron rápidamente, convirtiéndose en una tradición campesina
+								fundamental. La panela se produce a partir del jugo de caña de azúcar,
+								que se cocina y se solidifica sin refinar, conservando así sus nutrientes naturales</p>
+							<button class="btn-read-more">Leer más</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="product-item-sm d-flex">
+						<div class="thumbnail">
+							<img src="images/vari.jpg" alt="Image" class="img-fluid">
+						</div>
+						<div class="pt-3">
+							<h3>Variedades de panela y derivados</h3>
+							<p>La panela se presenta en varias formas: en bloque (tradicional), pulverizada (en polvo
+								para fácil disolución), granulada (similar al azúcar moreno) y líquida (jugo
+								concentrado). Cada variedad mantiene el sabor y los beneficios nutricionales de la
+								panela, adaptándose a diferentes usos culinarios. </p>
+							<button class="btn-read-more">Leer más</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Popular Product -->
+
+
+
+	<!-- Start Footer Section -->
+	<footer class="footer-section">
+		<div class="container relative">
+
+			<div class="row g-5 mb-5">
+				<div class="col-lg-4">
+					<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">PANEVI<span></span></a></div>
+					<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus
+						malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+						Pellentesque habitant</p>
+
+					<ul class="list-unstyled custom-social">
+						<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+						<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+						<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-8">
+					<div class="row links-wrap">
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contact us</a></li>
+							</ul>
+						</div>
+
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="#">Support</a></li>
+								<li><a href="#">Knowledge base</a></li>
+								<li><a href="#">Live chat</a></li>
+							</ul>
+						</div>
+
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="#">Jobs</a></li>
+								<li><a href="#">Our team</a></li>
+								<li><a href="#">Leadership</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="#">Nordic Chair</a></li>
+								<li><a href="#">Kruzo Aero</a></li>
+								<li><a href="#">Ergonomic Chair</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="border-top copyright">
+				<div class="row pt-4">
+					<div class="col-lg-6">
+						<p class="mb-2 text-center text-lg-start">Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash;
+							Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a
+								hreff="https://themewagon.com">ThemeWagon</a>
+							<!-- License information: https://untree.co/license/ -->
 						</p>
-						<div class="btn-read-more">Leer más</div>
 					</div>
-					<!-- Más tarjetas de blog -->
-				</div>
-			</div>
-		</section>
-	</main>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<footer class="footer"> <!-- Abre la etiqueta FOOTER que contiene el pie de página -->
-		<div class="container container-footer">
-			<div class="menu-footer"> <!-- Menú del pie de página -->
-				<div class="contact-info"> <!-- Información de contacto -->
-					<p class="title-footer">Información de Contacto</p>
-					<ul>
-						<li>Teléfono: 310-230-79-44</li>
-						<li>Fax: 55555300</li>
-						<li>EmaiL: innovatech004@gmail.com</li>
-					</ul>
-					<div class="social-icons">
-						<span class="facebook">
-							<i class="fa-brands fa-facebook-f"></i>
-						</span>
-						<span class="twitter">
-							<i class="fa-brands fa-twitter"></i>
-						</span>
-						<span class="youtube">
-							<i class="fa-brands fa-youtube"></i>
-						</span>
-						<span class="pinterest">
-							<i class="fa-brands fa-pinterest-p"></i>
-						</span>
-						<span class="instagram">
-							<i class="fa-brands fa-instagram"></i>
-						</span>
+
+					<div class="col-lg-6 text-center text-lg-end">
+						<ul class="list-unstyled d-inline-flex ms-auto">
+							<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
 					</div>
-				</div>
 
-				<div class="information">
-					<p class="title-footer">Información</p>
-					<ul>
-						<li><a href="#">Acerca de Nosotros</a></li>
-						<li><a href="#">Politicas de Privacidad</a></li>
-						<li><a href="#">Términos y condiciones</a></li>
-					</ul>
-				</div>
-
-				<div class="my-account">
-					<p class="title-footer">Mi cuenta</p>
-
-					<ul>
-						<li><a href="#">Mi cuenta</a></li>
-						<li><a href="#">Boletín</a></li>
-						<li><a href="#">Reembolsos</a></li>
-					</ul>
-				</div>
-
-				<div class="newsletter">
-					<p class="title-footer">Boletín informativo</p>
-
-					<div class="content">
-						<p>
-							Suscríbete a nuestros boletines ahora y mantente al
-							día con nuevas colecciones y ofertas exclusivas.
-						</p>
-						<input type="email" placeholder="Ingresa el correo aquí...">
-						<button>Suscríbete</button>
-					</div>
 				</div>
 			</div>
 
-			<div class="copyright">
-				<p>
-					Panevi - Endulza tu vida
-				</p>
-
-			</div>
 		</div>
 	</footer>
-	<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+	<!-- End Footer Section -->
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/custom.js"></script>
 </body>
-</html> <!-- Finaliza el código -->
+
+</html>

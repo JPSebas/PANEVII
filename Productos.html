@@ -1,347 +1,289 @@
-<!DOCTYPE html>
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="img/cana-de-azucar (2).png" type="image/x-icon">
-    <title>Productos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="css/tiny-slider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/app.js" async></script>
+	<title>Productos</title>
 </head>
 
 <body>
-    <hr>
-    <br><br>
-    <section class="container top-products">
-        <h1 class="heading-1">Mejores Productos</h1>
-        <img src="img/panevi.jpg" id="logo1" usemap="#planoMap"> <!-- Muestra la imagen del logo -->
-        <map name="planoMap">
-            <!-- Área 1 -->
-            <area shape="rect" coords="58,58,55,55" alt="Área 1" href="../index.html">
-            
-            <!-- Área 2 -->
-            <area shape="circle" coords="150,70,50" alt="Área 2" href="./index.html">
-            
-            <!-- Área 3 -->
-            <area shape="polygon" coords="250,10,320,50,200,100" alt="Área 3" href="../Login.html">
-          </map>
-          <div class="search-container">
-            <input id="input" type="text" placeholder="Buscar...">
-          <button type="submit">Buscar</button>
-        </div>
-        <hr id="line">
-        <div class="container-options">
-            <span class="active">Destacados</span>
-            <span>Más recientes</span>
-            <span>Mejores Vendidos</span>
-        </div>
 
-        <div class="container-products">
-            <!-- Producto 1 -->
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="img/panelas_unidad.jpg" alt="Cafe Irish" />
-                    <span class="discount">-13%</span>
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <h3><b>Panela por unidad</b></h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <br>
-                    <p>La panela tiene un sabor dulce y un color oscuro
-                        debido a su proceso de elaboración, que conserva
-                        los nutrientes y minerales presentes en la caña 
-                        de azucar. 
-                    </p>
-                    <p class="price">$2.500 <span>$2.900</span></p>
-                </div>
-            </div>
-            <!-- Producto 2 -->
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="img/caja.jpg" alt="Cafe incafe-ingles.jpg" />
-                    <span class="discount">-22%</span>
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <h3><b>Panela por caja</b></h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <br>
-                    <p>La panela en cajas viene en bloques sólidos, elaborados 
-                        mediante la cocción y moldeo del jugo de caña de azúcar. 
-                    </p>
-                    <p class="price">$52.000<br><span>$55.000</span></p>
-                </div>
-            </div>
-            <!--  -->
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="img/carga.jpg" alt="Cafe Australiano" />
-                    <span class="discount">-15%</span>
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h3><b>Panela por carga</b></h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <br>
-                    <p>La panela en cajas viene en bloques sólidos, elaborados 
-                        mediante la cocción y moldeo del jugo de caña de azúcar,
-                        solo que ya son por cargas y cada una de ellas cuenta
-                        con 5 cajas. 
-                    </p>
-                    <p class="price">$260.000<br><span>$290.000</span></p>
-                </div>
-            </div>
-            <!--  -->
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="img/bolsa.jpg" alt="Cafe Helado" />
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <h3><b>Panela en bolsa</b></h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <br>
-                    <p>La panela en bolsa viene en material tipo periódico, elaborados 
-                        mediante la cocción y moldeo del jugo de caña de azúcar,
-                        solo que ya en por bolsa. 
-                    </p>
-                    <p class="price">$47.000<br><span>$50.000</span></p>
-                </div>
-            </div>
-        </div>
-    </section>
+	<!-- Start Header/Navigation -->
+	<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+		<div class="container-logo"> <!-- Contenedor para el logo y el nombre de la empresa -->
 
-    <section class="container specials">
-        <h1 class="heading-1">Especiales</h1>
-        <hr id="line">
-        <div class="container-products">
-            <!-- Producto 1 -->
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="img/alfa.jpg" alt="Cafe Irish" />
-                    <span class="discount">-13%</span>
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <h3><b>Alfandoque</b></h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <br>
-                    <p>El alfandoque de panela es un reflejo de las 
-                        tradiciones culinarias y el ingenio artesanal en el uso de la panela.
-                    </p>
-                    <p class="price">$2.700<span>$3.200</span></p>
-                </div>
-            </div>
-            <!-- Producto 2 -->
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="img/melco.jpeg" alt="Cafe incafe-ingles.jpg" />
-                    <span class="discount">-5%</span>
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <h3><b>Melcochas</b></h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <br>
-                    <p>Las melcochas de panela son dulces tradicionales elaborados 
-                        con panela. Se caracterizan por su textura masticable y su sabor dulce.
-                    </p>
-                    <p class="price">$900<span>$1.200</span></p>
-                </div>
-            </div>
-            <!--  -->
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="img/coca.jpg" alt="Cafe Viena" />
-                    <span class="discount">-8%</span>
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h3><b>Cocadas</b></h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <br>
-                        <p>Las cocadas de panela son dulces tradicionales hechos 
-                            de panela y coco rallado. Tienen una textura masticable 
-                            y un sabor dulce y tropical.
-                        </p>
-                    <p class="price">$2.800<span>$3.000</span></p>
-                </div>
-            </div>
-            <!--  -->
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="img/miel.jpg" alt="Cafe Liqueurs" />
-                    <span class="discount">-20%</span>
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <h3><b>Miel</b></h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <br>
-                        <p>La miel de caña es un jarabe espeso y 
-                            oscuro obtenido del jugo de la caña de 
-                            azúcar. Tiene un sabor dulce y ligeramente 
-                            ahumado.
-                        </p>
-                    <p class="price">$15.000<span>$20.000</span></p>
-                </div>
-            </div>
-        </div>
-    </section>
+			<div class="header-images"> <!-- Contenedor para las imágenes de las letras de la empresa -->
+				<img src="images/logo.jpeg"> <!-- Muestra la imagen del logo -->
+				<img src="images/P.PNG" alt="Imagen 1">
+				<img src="images/A.png" alt="Imagen 1">
+				<img src="images/N.png" alt="Imagen 1">
+				<img src="images/E.png" alt="Imagen 1">
+				<img src="images/V.png" alt="Imagen 1">
+				<img src="images/I.png" alt="Imagen 1">
+			</div>
+		</div>
+
+
+		<div class="container">
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+				aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsFurni">
+				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Inicio</a>
+					</li>
+					<li><a class="nav-link" href="Login.html">Iniciar </a></li>
+					<li><a class="nav-link" href="Registro.html">Registrase</a></li>
+					<li><a class="nav-link" href="Productos.html">Productos</a></li>
+
+
+				</ul>
+
+
+			</div>
+		</div>
+
+	</nav>
+
+	<!-- End Header/Navigation -->
+
+	<body>
+		
+		<section class="contenedor">
+			<!-- Contenedor de elementos -->
+			<div class="contenedor-items">
+				<div class="item">
+					<span class="titulo-item">Panela por Unidad</span>
+					<img src="images/panelas_unidad.jpg" alt="" class="img-item">
+					
+					
+					<span class="precio-item">$15.000</span>
+					<button class="boton-item">Agregar al Carrito</button>
+				</div>
+				<div class="item">
+					<span class="titulo-item">Panela por Caja</span>
+					<img src="images/caja.jpg" alt="" class="img-item">
+					<span class="precio-item">$25.000</span>
+					<button class="boton-item">Agregar al Carrito</button>
+				</div>
+				<div class="item">
+					<span class="titulo-item">Panela por Carga</span>
+					<img src="images/carga.jpg" alt="" class="img-item">
+					<span class="precio-item">$35.000</span>
+					<button class="boton-item">Agregar al Carrito</button>
+				</div>
+				<div class="item">
+					<span class="titulo-item">Panela en Bolsa</span>
+					<img src="images/bolsa.jpg" alt="" class="img-item">
+					<span class="precio-item">$18.000</span>
+					<button class="boton-item">Agregar al Carrito</button>
+				</div>
+				<div class="item">
+					<span class="titulo-item">Alfandoque</span>
+					<img src="images/alfa.jpg" alt="" class="img-item">
+					<span class="precio-item">$32.000</span>
+					<button class="boton-item">Agregar al Carrito</button>
+				</div>
+				<div class="item">
+					<span class="titulo-item">Melcochas</span>
+					<img src="images/melco.jpeg" alt="" class="img-item">
+					<span class="precio-item">$18.000</span>
+					<button class="boton-item">Agregar al Carrito</button>
+				</div>
+				<div class="item">
+					<span class="titulo-item">Cocadas</span>
+					<img src="images/coca.jpg" alt="" class="img-item">
+					<span class="precio-item">$54.000</span>
+					<button class="boton-item">Agregar al Carrito</button>
+				</div>
+				<div class="item">
+					<span class="titulo-item">Miel</span>
+					<img src="images/miel.jpg" alt="" class="img-item">
+					<span class="precio-item">$32.000</span>
+					<button class="boton-item">Agregar al Carrito</button>
+				</div>
+				<div class="item">
+					<span class="titulo-item">Middlesteel</span>
+					<img src="img/middlesteel.png" alt="" class="img-item">
+					<span class="precio-item">$42.800</span>
+					<button class="boton-item">Agregar al Carrito</button>
+				</div>
+			</div>
+			<!-- Carrito de Compras -->
+			<div class="carrito" id="carrito">
+				<div class="header-carrito">
+					<h2>Tu Carrito</h2>
+				</div>
+	
+				<div class="carrito-items">
+					<!-- 
+					<div class="carrito-item">
+						<img src="img/boxengasse.png" width="80px" alt="">
+						<div class="carrito-item-detalles">
+							<span class="carrito-item-titulo">Box Engasse</span>
+							<div class="selector-cantidad">
+								<i class="fa-solid fa-minus restar-cantidad"></i>
+								<input type="text" value="1" class="carrito-item-cantidad" disabled>
+								<i class="fa-solid fa-plus sumar-cantidad"></i>
+							</div>
+							<span class="carrito-item-precio">$15.000,00</span>
+						</div>
+					   <span class="btn-eliminar">
+							<i class="fa-solid fa-trash"></i>
+					   </span>
+					</div>
+					<div class="carrito-item">
+						<img src="img/skinglam.png" width="80px" alt="">
+						<div class="carrito-item-detalles">
+							<span class="carrito-item-titulo">Skin Glam</span>
+							<div class="selector-cantidad">
+								<i class="fa-solid fa-minus restar-cantidad"></i>
+								<input type="text" value="3" class="carrito-item-cantidad" disabled>
+								<i class="fa-solid fa-plus sumar-cantidad"></i>
+							</div>
+							<span class="carrito-item-precio">$18.000,00</span>
+						</div>
+					   <button class="btn-eliminar">
+							<i class="fa-solid fa-trash"></i>
+					   </button>
+					</div>
+					 -->
+				</div>
+				<div class="carrito-total">
+					<div class="fila">
+						<strong>Tu Total</strong>
+						<span class="carrito-precio-total">
+							$120.000,00
+						</span>
+					</div>
+					<a href="checkout.html"><button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping" ></i> </button></a>
+				</div>
+			</div>
+		</section>
+	</body>
+
+
+
+
+	<!-- Start Footer Section -->
+	<footer class="footer-section">
+		<div class="container relative">
+
+
+			<div class="row">
+				<div class="col-lg-8">
+			
+				</div>
+			</div>
+
+			<div class="row g-5 mb-5">
+				<div class="col-lg-4">
+					<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Furni<span>.</span></a></div>
+					<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus
+						malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+						Pellentesque habitant</p>
+
+					<ul class="list-unstyled custom-social">
+						<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+						<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+						<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-8">
+					<div class="row links-wrap">
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contact us</a></li>
+							</ul>
+						</div>
+
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="#">Support</a></li>
+								<li><a href="#">Knowledge base</a></li>
+								<li><a href="#">Live chat</a></li>
+							</ul>
+						</div>
+
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="#">Jobs</a></li>
+								<li><a href="#">Our team</a></li>
+								<li><a href="#">Leadership</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="#">Nordic Chair</a></li>
+								<li><a href="#">Kruzo Aero</a></li>
+								<li><a href="#">Ergonomic Chair</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="border-top copyright">
+				<div class="row pt-4">
+					<div class="col-lg-6">
+						<p class="mb-2 text-center text-lg-start">Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash;
+							Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a
+								href="https://themewagon.com">ThemeWagon</a>
+							<!-- License information: https://untree.co/license/ -->
+						</p>
+					</div>
+
+					<div class="col-lg-6 text-center text-lg-end">
+						<ul class="list-unstyled d-inline-flex ms-auto">
+							<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	<!-- End Footer Section -->
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/custom.js"></script>
 </body>
-
 
 </html>
